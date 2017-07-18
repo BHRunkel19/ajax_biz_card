@@ -1,0 +1,70 @@
+body{
+  /*border: 1px solid red;*/
+  height: 100%;
+  margin: 0;
+  background-color: black;
+}
+
+#primary_box{
+  background: white;
+  height: 300px;
+}
+
+h1{
+  /*border: 1px solid blue;*/
+  color: white;
+  font-size: 60px;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h2{
+  padding-left: 40px;
+}
+
+#bio_title_content{
+  text-align: center;
+}
+
+section{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+div{
+  width: 50%;
+  height: 75%;
+  margin: 0;
+}
+
+#the_basics{
+  margin: auto;
+  text-align: left;
+  line-height: 2; 
+  font-weight: 100;
+  width: 80%;
+}
+
+#githubContent{
+  text-align: center;
+}
+
+#textContent{
+  width: 50%;
+  margin: 0;
+}
+
+span{
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+li{
+  list-style-type: none;
+}
+
+p{
+  border-left: 1px solid grey;
+  padding-left: 40px;
+}
