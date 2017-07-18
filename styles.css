@@ -7,7 +7,7 @@ body{
 
 #primary_box{
   background: white;
-  height: 300px;
+  height: 500px;
 }
 
 h1{
@@ -21,6 +21,8 @@ h1{
 
 h2{
   padding-left: 40px;
+  font-size: 40px;
+  color: black;
 }
 
 #bio_title_content{
@@ -34,30 +36,37 @@ section{
 
 div{
   width: 50%;
-  height: 75%;
+  /*height: 75%;*/
+  padding-top: 20px;
   margin: 0;
 }
 
 #the_basics{
-  margin: auto;
+  margin: 0 auto;
   text-align: left;
-  line-height: 2; 
   font-weight: 100;
   width: 80%;
+  font-family: sans-serif;
+  color: grey;
 }
 
 #githubContent{
   text-align: center;
+  line-height: 1.5;
 }
 
 #textContent{
   width: 50%;
   margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: grey;
 }
 
 span{
-  text-decoration: underline;
   font-weight: 600;
+  color: #00b3b3;
+  font-family: sans-serif;
 }
 
 li{

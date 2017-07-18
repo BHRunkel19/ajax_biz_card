@@ -64,13 +64,13 @@ function reqListener() {
   // console.log(name);
   let githubLogin = gitData.login;
   // console.log(githubURL);
-  let email = gitData.email;
-  let company = gitData.company;
+  let location = gitData.location;
   let bio = gitData.bio;
   let avatar = gitData.avatar_url;
 
   sub_container.innerHTML=`<li><span>Name:</span> ${name}</li>
   <li><span>GitHub URL:</span> ${githubLogin}</li>
+  <li><span>Location:</span> ${location}</li>
   <li><span>Bio:</span>  ${bio}</li>`;
 
 }
