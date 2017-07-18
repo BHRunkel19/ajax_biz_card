@@ -40,7 +40,7 @@ container2.appendChild(paragraph_title);
 
 
 let paragraph = document.createElement("p");
-let lorem = document.createTextNode("Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
+let lorem = document.createTextNode("Born and raised in Addison, TX, a northern suburb of Dallas, Brandon is a software development professional learning what it takes to be successful in today's technology market. After a few years of successfully supporting enterprise sales teams as a solutions consultant, the day came where it was time for a change. That change came in the summer of 2017, when he quit his job, applied to school and got accepted to a full-time career development cohort at the Iron Yard in Raleigh, NC. Currently in the thick of the cirriculum, Brandon is pursuing full-stack development with a concentration primarily on back-end. He currently lives in Raleigh and aspires to join the Red Hat software development organization upon graduation"); 
 let info_section = document.createElement("div");
 
 container1.appendChild(info_section);
