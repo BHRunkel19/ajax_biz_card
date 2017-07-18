@@ -1,6 +1,10 @@
+//Confirm JS is read by browser
+console.log("Yay the page is working!")
+
+//Define HTML page elements for structure
 let page = document.querySelector("body");
 let title = document.createElement("h1");
-let yourName = document.createTextNode("Your Name");
+let yourName = document.createTextNode("Brandon Runkel");
 let header = document.createElement("header");
 
 title.appendChild(yourName);
@@ -8,7 +12,7 @@ header.appendChild(title);
 page.appendChild(header);
 header.style.textAlign="center";
 
-//1. Create container elements & append to page
+//1. Create primary container elements & append pieces to page
 let main = document.createElement("section");
 page.appendChild(main);
 main.setAttribute("id", "primary_box")
@@ -55,6 +59,7 @@ req.addEventListener('load', reqListener);
 req.open("GET", "https://api.github.com/users/bubbabean")
 req.send();
 
+//3. Construct template and organize layout
 function reqListener() {
   //parse response text
   let gitData = JSON.parse(this.responseText);
@@ -64,6 +69,7 @@ function reqListener() {
   // console.log(name);
   let githubLogin = gitData.login;
   // console.log(githubURL);
+  // let email = gitData.email;
   let location = gitData.location;
   let bio = gitData.bio;
   let avatar = gitData.avatar_url;
