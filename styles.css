@@ -63,6 +63,18 @@ div{
   color: grey;
 }
 
+#picture{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+}
+
+img{
+  width: 50%;
+  border-radius: 100px; 
+}
+
 span{
   font-weight: 600;
   color: #00b3b3;

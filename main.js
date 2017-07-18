@@ -73,4 +73,5 @@ function reqListener() {
   <li><span>Location:</span> ${location}</li>
   <li><span>Bio:</span>  ${bio}</li>`;
 
+  container3.innerHTML=`<img src=${avatar}></img>`;
 }
