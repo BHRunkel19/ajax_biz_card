@@ -2,7 +2,7 @@ body{
   /*border: 1px solid red;*/
   height: 100%;
   margin: 0;
-  background: black; 
+  background-image: linear-gradient(270deg, blue, black);
   font-family: "Bellefair", serif;
 }
 
@@ -47,7 +47,7 @@ div{
   text-align: left;
   font-weight: 100;
   width: 80%;
-  font-family: sans-serif;
+  font-family: "Bellefair", serif;
   color: grey;
 }
 

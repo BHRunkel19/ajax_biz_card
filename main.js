@@ -40,7 +40,7 @@ container2.appendChild(paragraph_title);
 
 
 let paragraph = document.createElement("p");
-let lorem = document.createTextNode("Born and raised in Addison, TX, a northern suburb of Dallas, Brandon is a software development professional learning what it takes to be successful in today's technology market. After a few years of successfully supporting enterprise sales teams as a solutions consultant, the day came where it was time for a change. That change came in the summer of 2017, when he quit his job, applied to school and got accepted to a full-time career development cohort at the Iron Yard in Raleigh, NC. Currently in the thick of the cirriculum, Brandon is pursuing full-stack development with a concentration primarily on back-end. He currently lives in Raleigh and aspires to join the Red Hat software development organization upon graduation"); 
+let lorem = document.createTextNode("Born and raised in Dallas, TX, Brandon is an aspiring software development professional learning what it takes to be successful in today's technology market. After a few years of successfully supporting enterprise sales teams as a solutions consultant, the day came where it was time for a change. That change came in the summer of 2017, when he quit his job, applied to school and got accepted to a full-time career development cohort at the Iron Yard in Raleigh, NC. Currently in the thick of the cirriculum, Brandon is pursuing full-stack development with a concentration primarily on back-end. He currently lives in Raleigh and aspires to join the Red Hat software development organization upon graduation"); 
 let info_section = document.createElement("div");
 
 container1.appendChild(info_section);
